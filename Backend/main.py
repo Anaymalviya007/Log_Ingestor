@@ -13,7 +13,7 @@ CORS(app)
 app.secret_key = secrets.token_hex(16)
 
 # MongoDB connection
-uri = "mongodb+srv://anaymalviya900:1234@cluster0.go6bsuu.mongodb.net/?retryWrites=true&w=majority"
+uri = ""
 client = MongoClient(uri)
 db = client['Cluster0']
 logs_collection = db['logs']
